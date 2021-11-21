@@ -1,0 +1,38 @@
+.header_name{
+    color: orangered;
+}
+.company{
+
+    display: flex;
+    text-align: justify;
+    padding: 20px;
+}
+img{
+    margin-left: 10px;
+}
+
+/* Make it responsive */
+@media only screen and (max-width:688px) {
+    .company{
+
+       display: block;
+        text-align: justify;
+        padding: 20px;
+    }
+    img{
+        margin-left: 10px;
+        width: 320px;
+    }
+}
+@media only screen and (min-width:689px) and (max-width: 991px){
+    .company{
+
+    display: block;
+        text-align: justify;
+        padding: 20px;
+    }
+    img{
+        margin-left: 10px;
+        width: 700px;
+    }
+}
